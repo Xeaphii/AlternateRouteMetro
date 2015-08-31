@@ -24,7 +24,8 @@ public class MainActivity extends Activity {
     EditText DateSelected,TrainNumber;
     Button BtSubmit;
 
-    String[] ClassesList={"SL-sleeper ","java","IOS","SQL","JDBC","Web services"};
+
+    String[] ClassesList={"SL","3AC","2AC","1AC","CC","FC","3E","2S"};
     Calendar myCalendar = Calendar.getInstance();
 
     @Override

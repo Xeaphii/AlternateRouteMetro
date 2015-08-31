@@ -58,6 +58,157 @@
         android:text="Percentage of each journey can be covered for next 7 days"
         android:layout_gravity="center_horizontal"
         />
+    <?xml version="1.0" encoding="utf-8"?>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000" />
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/percentage_date"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000" />
+        <TextView
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/percentage_sl"
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content"
+            android:text="SL"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000" />
+        <TextView
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/percentage_3ac"
+            android:layout_width="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="3AC"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000" />
+        <TextView
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/percentage_2ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center_horizontal"
+            android:text="2AC"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000" />
+        <TextView
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/percentage_1ac"
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1AC"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000" />
+        <TextView
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/percentage_cc"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="CC"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000" />
+        <TextView
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/percentage_fc"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="FC"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000" />
+        <TextView
+            android:id="@+id/percentage_3e"
+            android:layout_width="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text="3E"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000" />
+        <TextView
+            android:id="@+id/percentage_2s"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="2S"
+            />
+
+    </LinearLayout>
     <ListView
         android:layout_marginTop="10dp"
         android:id="@+id/alternate_routes_lov"
