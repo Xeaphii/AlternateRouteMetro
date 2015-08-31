@@ -139,9 +139,8 @@
             android:layout_height="wrap_content" >
 
             <TextView
-                android:textStyle="bold"
-                android:textSize="18dp"
-                android:id="@+id/percentage_date"
+                android:textSize="17dp"
+                android:id="@+id/percentage_date_1"
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
                 android:paddingTop="5dp"
@@ -152,9 +151,8 @@
                 />
 
             <TextView
-                android:textStyle="bold"
-                android:textSize="18dp"
-                android:id="@+id/percentage_sl"
+                android:textSize="17dp"
+                android:id="@+id/percentage_sl_1"
                 android:layout_width="wrap_content"
                 android:gravity="center_horizontal"
                 android:layout_weight="1"
@@ -165,9 +163,8 @@
                 />
 
             <TextView
-                android:textStyle="bold"
-                android:textSize="18dp"
-                android:id="@+id/percentage_3ac"
+                android:textSize="17dp"
+                android:id="@+id/percentage_3ac_1"
                 android:layout_width="wrap_content"
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp"
@@ -178,9 +175,8 @@
                 />
 
             <TextView
-                android:textStyle="bold"
-                android:textSize="18dp"
-                android:id="@+id/percentage_2ac"
+                android:textSize="17dp"
+                android:id="@+id/percentage_2ac_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -354,6 +350,462 @@
 
             <TextView
                 android:id="@+id/percentage_2s_2"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_width="wrap_content"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="2S"
+                />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_date_3"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_sl_3"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:text="SL"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_3ac_3"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="3AC"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_2ac_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"
+                android:text="2AC"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_1ac_3"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1AC"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_cc_3"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="CC"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_fc_3"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="FC"
+                />
+
+            <TextView
+                android:id="@+id/percentage_3e_3"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textSize="17dp"
+                android:layout_height="wrap_content"
+                android:text="3E"
+                />
+
+            <TextView
+                android:id="@+id/percentage_3s_3"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_width="wrap_content"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="2S"
+                />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_date_4"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_sl_4"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:text="SL"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_4ac_4"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="3AC"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_2ac_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"
+                android:text="2AC"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_1ac_4"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1AC"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_cc_4"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="CC"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_fc_4"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="FC"
+                />
+
+            <TextView
+                android:id="@+id/percentage_4e_4"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textSize="17dp"
+                android:layout_height="wrap_content"
+                android:text="3E"
+                />
+
+            <TextView
+                android:id="@+id/percentage_4s_4"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_width="wrap_content"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="2S"
+                />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_date_5"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_sl_5"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:text="SL"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_5ac_5"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="3AC"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_2ac_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"
+                android:text="2AC"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_1ac_5"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1AC"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_cc_5"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="CC"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_fc_5"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="FC"
+                />
+
+            <TextView
+                android:id="@+id/percentage_5e_5"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textSize="17dp"
+                android:layout_height="wrap_content"
+                android:text="3E"
+                />
+
+            <TextView
+                android:id="@+id/percentage_5s_5"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_width="wrap_content"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="2S"
+                />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_date_6"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_sl_6"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:text="SL"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_6ac_6"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="3AC"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_2ac_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"
+                android:text="2AC"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_1ac_6"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1AC"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_cc_6"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="CC"
+                />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/percentage_fc_6"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="FC"
+                />
+
+            <TextView
+                android:id="@+id/percentage_6e_6"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textSize="17dp"
+                android:layout_height="wrap_content"
+                android:text="3E"
+                />
+
+            <TextView
+                android:id="@+id/percentage_6s_6"
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp"
                 android:layout_width="wrap_content"
