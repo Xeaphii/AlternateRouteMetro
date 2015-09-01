@@ -17,10 +17,11 @@ public class TrainClassesAdapter extends BaseAdapter
 {
     private Context mContext;
     private int mSelectedVariation;
+    String[] AvailableClasses;
 
     @Override
     public long getItemId(int position) {
-        return 0;
+        return position;
     }
 
     @Override
@@ -30,13 +31,14 @@ public class TrainClassesAdapter extends BaseAdapter
 
     @Override
     public int getCount() {
-        return 0;
+        return AvailableClasses.length;
     }
 
-    public TrainClassesAdapter(Context context, ArrayList<String> variations, int selectedVariation)
+    public TrainClassesAdapter(Context context, int selectedVariation,String[] AvailableClasses)
     {
         mContext = context;
         mSelectedVariation = selectedVariation;
+        this.AvailableClasses = AvailableClasses;
     }
 
 
@@ -55,7 +57,7 @@ public class TrainClassesAdapter extends BaseAdapter
         TextView name = (TextView) view.findViewById(R.id.class_name);
         RadioButton radio = (RadioButton) view.findViewById(R.id.class_checkbox);
 
-
+        name.setText(AvailableClasses[position]);
         if(position==mSelectedVariation) radio.setChecked(true);
         else radio.setChecked(false);
 

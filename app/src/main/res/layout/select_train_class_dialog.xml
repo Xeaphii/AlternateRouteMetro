@@ -1,40 +1,50 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#ffffffff">
 
-    <LinearLayout
-        android:id="@+id/a"
-        android:layout_width="fill_parent"
-        android:padding="15dp"
-        android:background="#DA5F6A"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <ImageView
-            android:layout_width="wrap_content"
-            android:src="@mipmap/ic_launcher"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:text="Select Train Class"
-            android:layout_gravity="center_vertical"
-            android:textStyle="bold"
-            android:textSize="20dp"
-            android:layout_marginLeft="10dp"
-            android:textColor="#fff"
-            android:layout_height="wrap_content" />
+    <!--<LinearLayout-->
+        <!--android:id="@+id/a"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:padding="15dp"-->
+        <!--android:background="#DA5F6A"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!-->-->
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:src="@mipmap/ic_launcher"-->
+            <!--android:layout_height="wrap_content" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:text="Select Train Class"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="20dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:textColor="#fff"-->
+            <!--android:layout_height="wrap_content" />-->
 
-    </LinearLayout>
+    <!--</LinearLayout>-->
 
 
     <ListView
         android:id="@+id/train_classes_lov"
-        android:layout_below="@+id/a"
         android:divider="#3F51B5"
         android:dividerHeight="4px"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"></ListView>
+        android:layout_height="wrap_content"></ListView>
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        />
+
+
+</LinearLayout>
