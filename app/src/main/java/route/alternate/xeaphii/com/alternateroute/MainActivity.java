@@ -7,10 +7,11 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -21,8 +22,6 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import java.text.DateFormat;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Calendar;
@@ -37,7 +36,7 @@ public class MainActivity extends Activity {
     EditText TrainNumber;
     Button BtSubmit;
     Button ClassesSelect;
-//    Button ClearTrainNumber;
+    Button ClearTrainNumber,ClearSource,ClearDestination;
 
 
     String[] ClassesList = {"All Classes", "SL", "3AC", "2AC", "1AC", "CC", "FC", "3E", "2S"};
@@ -52,7 +51,96 @@ public class MainActivity extends Activity {
         DestinationET = (AutoCompleteTextView) findViewById(R.id.destination_field);
         DateSelected = (Button) findViewById(R.id.date_set);
         TrainNumber = (EditText) findViewById(R.id.train_number);
+        ClearTrainNumber = (Button) findViewById(R.id.clear_train_no);
+        ClearSource = (Button) findViewById(R.id.clear_source);
+        ClearDestination = (Button) findViewById(R.id.clear_destination);
 
+        ClearTrainNumber.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TrainNumber.setText("");
+                ClearTrainNumber.setVisibility(View.GONE);
+            }
+        });
+        TrainNumber.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if(TrainNumber.getText().toString().trim().length()>=0){
+                    ClearTrainNumber.setVisibility(View.VISIBLE);
+                }else{
+                    ClearTrainNumber.setVisibility(View.GONE);
+                }
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
+
+        ClearDestination.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DestinationET.setText("");
+                ClearDestination.setVisibility(View.GONE);
+            }
+        });
+        DestinationET.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if(DestinationET.getText().toString().trim().length()>=0){
+                    ClearDestination.setVisibility(View.VISIBLE);
+                }else{
+                    ClearDestination.setVisibility(View.GONE);
+                }
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
+
+        ClearSource.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SourceEt.setText("");
+                ClearSource.setVisibility(View.GONE);
+            }
+        });
+        SourceEt.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if(SourceEt.getText().toString().trim().length()>=0){
+                    ClearSource.setVisibility(View.VISIBLE);
+                }else{
+                    ClearSource.setVisibility(View.GONE);
+                }
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
 
         BtSubmit = (Button) findViewById(R.id.bt_submit);
 //        TrainNumber.setOnFocusChangeListener(new View.OnFocusChangeListener() {
@@ -125,10 +213,12 @@ public class MainActivity extends Activity {
                             Toast.makeText(MainActivity.this, "Can't choose previous date", Toast.LENGTH_LONG).show();
                         }
                     } else {
-                        Toast.makeText(MainActivity.this, "Destination station can't be empty", Toast.LENGTH_LONG).show();
+                       // Toast.makeText(MainActivity.this, "Destination station can't be empty", Toast.LENGTH_LONG).show();
+                        DestinationET.setError("Destination station can't be empty");
                     }
                 } else {
-                    Toast.makeText(MainActivity.this, "Source station can't be empty", Toast.LENGTH_LONG).show();
+                  //  Toast.makeText(MainActivity.this, "Source station can't be empty", Toast.LENGTH_LONG).show();
+                    SourceEt.setError("Source station can't be empty");
                 }
             }
         });
