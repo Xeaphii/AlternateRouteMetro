@@ -31,8 +31,7 @@
 
     <ListView
         android:id="@+id/train_classes_lov"
-        android:divider="#3F51B5"
-        android:dividerHeight="4px"
+
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"></ListView>
 

@@ -44,7 +44,7 @@ public class TrainsList extends Activity {
                 // set the custom dialog components - text, image and button
                 ListView SelectClasses = (ListView) dialog.findViewById(R.id.train_classes_lov);
 
-                SelectClasses.setAdapter(new TrainClassesAdapter(TrainsList.this, 0,ClassesAvailable));
+                SelectClasses.setAdapter(new TrainClassesAdapter(TrainsList.this, 0,ClassesAvailable,null,null));
 //                SelectClasses.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 //                    @Override
 //                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
